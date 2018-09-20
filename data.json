@@ -1,0 +1,28 @@
+{
+    "languages": [
+        { "name": "Java", "yearStarted": 2010 },
+        { "name": "Kotlin", "yearStarted": 2014 },
+        { "name": "JavaScript", "yearStarted": 2016 },
+        { "name": "TypeScript", "yearStarted": 2016 }
+    ],
+    "education": [
+        {
+            "name": "Georgia Institute of Technology",
+            "loc": "Atlanta, GA",
+            "from": "Spring 2018",
+            "to": "Present"
+        },
+        {
+            "name": "Northern Virginia Community College (NOVA)",
+            "loc": "Sterling, VA",
+            "from": "Fall 2016",
+            "to": "Fall 2017"
+        },
+        {
+            "name": "Briar Woods High School",
+            "loc": "Ashburn, VA",
+            "from": "Fall 2012",
+            "to": "Spring 2016"
+        }
+    ]
+}
