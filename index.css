@@ -1,0 +1,125 @@
+html {
+  font-family: Roboto, sans-serif;
+  background-color: #1565C0; }
+
+* {
+  box-sizing: border-box; }
+
+p {
+  line-height: 24px; }
+
+a {
+  color: inherit;
+  transition: color 0.2s linear; }
+  a:hover {
+    color: #1565C0; }
+
+.gone {
+  display: none; }
+
+.portrait {
+  border: 8px solid #F5F5F5;
+  width: 300px;
+  border-radius: 50%;
+  height: 300px;
+  margin: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
+
+.tag {
+  padding: 6px;
+  color: rgba(0, 0, 0, 0.9);
+  background-color: #CFD8DC;
+  border-radius: 8px;
+  font-size: smaller;
+  margin: 3px; }
+
+.tag-container {
+  display: flex;
+  flex-flow: row wrap; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500; }
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  color: #F5F5F5;
+  padding: 100px; }
+  header h2 {
+    margin: 0; }
+
+h1 {
+  margin: 0; }
+
+.name h1 {
+  font-size: 4rem; }
+
+.name h2 {
+  font-size: 2.5rem; }
+
+.card {
+  background-color: #F5F5F5;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
+
+.subtitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: -15px; }
+
+main {
+  max-width: 768px;
+  margin: 20px auto; }
+
+section {
+  padding: 30px 40px; }
+  section h1 {
+    margin-bottom: 20px; }
+
+.duration-indicator {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: row;
+  color: rgba(0, 0, 0, 0.9); }
+  .duration-indicator .empty-duration {
+    border: 3px #CFD8DC dashed;
+    border-left: none;
+    border-radius: 0 10px 10px 0; }
+
+.filled-duration {
+  background-color: #CFD8DC;
+  padding: 13px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row; }
+  .filled-duration .filler {
+    flex-grow: 1; }
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.school {
+  background: #CFD8DC;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+
+.school-name {
+  font-size: 1.3rem; }
+
+.school-connector {
+  width: 0;
+  height: 50px;
+  border: 2px #CFD8DC dashed; }
+
+.school-loc {
+  margin: 10px 0 5px 0; }
